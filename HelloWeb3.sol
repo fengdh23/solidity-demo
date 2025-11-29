@@ -16,7 +16,7 @@ contract ValueTypes {
     uint256 public _number = 20251127;
 
 
-    // 地址 address
+    // 地址 address 无双引号
     address public  _address = 0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71;
     address payable public  _address1 = payable(_address); // payable 可以转账 查余额
 

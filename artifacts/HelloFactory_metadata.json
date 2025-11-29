@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "callSayHelloFromFactory",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createHello",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getHelloByIndex",
+				"outputs": [
+					{
+						"internalType": "contract HelloWord",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloFactory.sol": "HelloFactory"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Hello.sol": {
+			"keccak256": "0xd37a5113806188bc522b186c3df91195f055a4190fb5bc6f6b1fd5cd6580d5ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c609ea051c9b38023a03c6172f95612393906d7efc84cd38dccdbff177bf4f4",
+				"dweb:/ipfs/QmTKjFkFSQjkodVSH5ePJGwZB6nWcDDpcqVXiD6ZnBdn2S"
+			]
+		},
+		"contracts/HelloFactory.sol": {
+			"keccak256": "0x8951f75ecb2522ba6f9a1f1261161bcd3fe351f406e8d78b44c642130bcd2408",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://11ef36cbc61644e91cb4e9725a8a657de2054e13d6ef5be355c59f905f88c571",
+				"dweb:/ipfs/QmSn1sGVWqAJ53RWZJZCPq7CTuij3nYyj1YfjggWPXCDkB"
+			]
+		}
+	},
+	"version": 1
+}
